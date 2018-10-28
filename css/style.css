@@ -1,0 +1,90 @@
+.box {
+  background-image: url("../images/image1.jpg");
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-position: center center; }
+
+.box1 {
+  color: gray;
+  font-size: 20px;
+  width: 100%;
+  line-height: 100px;
+  margin: 0px; 
+  text-align: center;
+}
+
+.container {
+  max-width: 100%;
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-between;
+  justify-content: space-around;
+}
+
+.box2 {
+  width: 30%;
+  line-height: 500px; 
+  text-align: center;
+  margin: 10px 0;
+}
+
+.box2 h2 {
+  color: gray;
+  font-size: 20px;
+  background-color: lightgray;
+  line-height: 50px;
+}
+
+.box2 p {
+  color: white;
+  font-size: 20px;
+  background-color: gray;
+  line-height: 150px;
+}
+
+.footerbox1 {
+  color: gray;
+  width: 100%;
+  line-height: 100px;
+  padding: 50px 0;
+  margin: 0 auto;
+  text-align: center;
+  background-color: lightgray;
+}
+
+
+.footerbox1 a{
+    width: 300px;
+    line-height: 50px;
+    margin: 0 auto;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    color: white;
+    background: gray;
+    border-radius: 5px;
+}
+
+
+@media (max-width: 768px){ /*ここからスマホです*/
+
+.box {
+  height: 250px;
+}
+
+.box2{
+  width: 100%;
+}
+
+.container {
+  flex-direction: column;
+  }
+  
+}/*��こまでスマホです*/
+
+
+/*# sourceMappingURL=style.css.map */
